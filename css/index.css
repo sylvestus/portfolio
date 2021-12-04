@@ -216,3 +216,75 @@ a {
 
   display: inline;
 }
+
+@media screen and (min-width: 200px) and (max-width: 760px) {
+  .me .me_txt {
+    margin-left: 10px;
+    width: 90%;
+    height: auto;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px;
+  }
+
+  .skills {
+   background-color: #ffff;
+    display: block;
+    margin-top: 0px;
+  }
+  .skills li{
+    margin-top: 20px;
+    background-color: #efefef;
+  }
+
+  
+  .about_me {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .work_samples ol {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .work_samples ol li img {
+    height: 100%;
+    width: 100%;
+    display: block;
+   
+  }
+
+.listen_2customer .listen_row {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.listen_2customer .listen_row li{
+  padding-left: 10%;
+}
+
+
+.listen_2customer .listen_row .icon_txt{
+  padding-left: 0px;
+  margin-left: opx;
+  
+}
+.contact_me ul {
+  width: 90%;
+  display: block;
+  
+}
+.contact_me ul li {
+width: 100%;
+text-align: center;
+
+}
+.footer {
+ height: auto;
+  display: block;
+  text-align: center;
+  
+}
+}
