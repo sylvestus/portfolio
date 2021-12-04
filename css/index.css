@@ -196,3 +196,23 @@ a {
   width: 255px;
   cursor: pointer;
 }
+
+.footer {
+  height: 40px;
+  background-color: #2c2c2c;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > li {
+  margin-top: 20px;
+  list-style: none;
+  display: inline;
+  margin: 0px;
+}
+
+.footer ul > li {
+  padding-left: 10px;
+
+  display: inline;
+}
