@@ -61,3 +61,37 @@ h3 {
 .me .me_txt li {
   align-content: center;
 }
+.skills {
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.skills :hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+  /* transition: transform .6s; /* Animation 
+  width: 30%;*/
+}
+
+.skills li {
+  list-style: none;
+  box-shadow: 5px 3px 5px black;
+}
+
+.skills li img {
+  width: 50px;
+  height: 50px;
+}
+hr {
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  border: 0px;
+  outline: 0px;
+  visibility: hidden;
+}
+.skills li :hover hr {
+  visibility: visible;
+  transition: transform 0.9s;
+}
