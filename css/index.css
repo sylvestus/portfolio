@@ -1,4 +1,3 @@
-
 body {
   width: 100%;
   margin: 0px;
@@ -105,9 +104,6 @@ hr {
   justify-content: space-around;
 }
 
-.about_me .col2 {
-  padding-top: 6%;
-}
 .work_samples {
   width: 100%;
   overflow-x: hidden;
@@ -190,7 +186,7 @@ a {
   width: 230px;
 }
 .btn {
-  background-color: #e1651f;
+  background-color: #449785;
   padding: 5px;
   border: none;
   width: 255px;
@@ -228,16 +224,15 @@ a {
   }
 
   .skills {
-   background-color: #ffff;
+    background-color: #ffff;
     display: block;
     margin-top: 0px;
   }
-  .skills li{
+  .skills li {
     margin-top: 20px;
     background-color: #efefef;
   }
 
-  
   .about_me {
     display: block;
     justify-content: space-around;
@@ -247,44 +242,37 @@ a {
     display: block;
     justify-content: space-between;
     width: 100%;
-    
   }
   .work_samples ol li img {
     height: 100%;
     width: 100%;
     display: block;
-   
   }
 
-.listen_2customer .listen_row {
-  display: block;
-  padding-bottom: 50px;
-}
+  .listen_2customer .listen_row {
+    display: block;
+    padding-bottom: 50px;
+  }
 
-.listen_2customer .listen_row li{
-  padding-left: 10%;
-}
+  .listen_2customer .listen_row li {
+    padding-left: 10%;
+  }
 
-
-.listen_2customer .listen_row .icon_txt{
-  padding-left: 0px;
-  margin-left: opx;
-  
-}
-.contact_me ul {
-  width: 90%;
-  display: block;
-  
-}
-.contact_me ul li {
-width: 100%;
-text-align: center;
-
-}
-.footer {
- height: auto;
-  display: block;
-  text-align: center;
-  
-}
+  .listen_2customer .listen_row .icon_txt {
+    padding-left: 0px;
+    margin-left: opx;
+  }
+  .contact_me ul {
+    width: 90%;
+    display: block;
+  }
+  .contact_me ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .footer {
+    height: auto;
+    display: block;
+    text-align: center;
+  }
 }
