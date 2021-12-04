@@ -95,3 +95,16 @@ hr {
   visibility: visible;
   transition: transform 0.9s;
 }
+.about_me {
+  background-color: #449785;
+  width: 100%;
+  height: auto;
+  line-height: 2;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_me .col2 {
+  padding-top: 6%;
+}
