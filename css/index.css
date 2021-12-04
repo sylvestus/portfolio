@@ -1,0 +1,32 @@
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Slab", serif;
+}
+h2,
+h3 {
+  font-family: "Oleo Script Swash Caps";
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #6caca4;
+}
+.navbar img {
+  width: 15%;
+  height: 15%;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar li {
+  float: right;
+  display: inline;
+  list-style: none;
+  padding-left: 3%;
+  padding-top: 9%;
+  margin-right: 2%;
+}
