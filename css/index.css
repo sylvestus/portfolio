@@ -108,3 +108,35 @@ hr {
 .about_me .col2 {
   padding-top: 6%;
 }
+.work_samples {
+  width: 100%;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #efefef;
+}
+.work_samples ol {
+  display: flex;
+  justify-content: space-around;
+  list-style-position: inside;
+}
+
+.work_samples ol li {
+  box-shadow: 5px 3px 5px black;
+  transition: transform 0.5s;
+}
+
+.work_samples ol li :hover {
+  transform: scale(1);
+}
+
+.work_samples ol :hover {
+  transform: scale(1.1);
+}
+
+.work_samples ol li img {
+  height: 200px;
+  width: 300px;
+}
+a {
+  text-decoration: none;
+}
