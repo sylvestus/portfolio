@@ -140,3 +140,34 @@ hr {
 a {
   text-decoration: none;
 }
+
+.listen_2customer {
+  height: auto;
+  background-color: #bcc1c0;
+}
+.listen_2customer .listen_txt {
+  margin-top: 50px;
+  color: black;
+}
+
+.listen_2customer .listen_row {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+
+.listen_2customer .listen_row > li {
+  margin-top: 40px;
+  list-style: none;
+  background-color: white;
+  box-shadow: 5px 3px 5px black;
+  transition: transform 0.5s;
+}
+
+.listen_2customer .listen_row :hover {
+  transform: scale(1.2);
+}
+
+.listen_2customer .listen_row li :hover {
+  transform: scale(1);
+}
