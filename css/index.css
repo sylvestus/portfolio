@@ -126,7 +126,8 @@ hr {
 }
 
 .work_samples ol :hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
+
 }
 
 .work_samples ol li img {
