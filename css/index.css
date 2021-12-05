@@ -106,6 +106,7 @@ hr {
 
 .work_samples {
   width: 100%;
+  height: auto;
   overflow-x: hidden;
   padding-top: 20px;
   background-color: #efefef;
@@ -119,6 +120,7 @@ hr {
 .work_samples ol li {
   box-shadow: 5px 3px 5px black;
   transition: transform 0.5s;
+  margin-bottom: 20px;
 }
 
 .work_samples ol li :hover {
@@ -126,8 +128,7 @@ hr {
 }
 
 .work_samples ol :hover {
-  transform: scale(1.08);
-
+  transform: scale(1.1);
 }
 
 .work_samples ol li img {
@@ -141,10 +142,12 @@ a {
 .listen_2customer {
   height: auto;
   background-color: #bcc1c0;
+  text-align: center;
 }
 .listen_2customer .listen_txt {
   margin-top: 50px;
   color: black;
+  text-align: center;
 }
 
 .listen_2customer .listen_row {
