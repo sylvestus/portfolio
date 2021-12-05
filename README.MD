@@ -1,6 +1,6 @@
 # Silvano desighns portfolio
 
-#### This is a website to showcase my skills, give a desciption about me andhow i can be contacted if someone likes my worl, 5/12/2021 version 1.0
+#### This is a website to showcase my skills, give a desciption about me andhow i can be contacted if someone likes my work 5/12/2021 version 1.0
 
 #### By **This project was apersonal independent project **
 
