@@ -216,6 +216,21 @@ a {
 
   display: inline;
 }
+.socialize{
+  width: 100%;
+  height: 50vh;
+  background-color: #efefef;
+}
+.socialize .social_txt{
+  line-height: 2;
+  text-align: center;
+}
+.social_txt .comment_btn{
+  width: 40%;
+  height: 15vh;
+}
+
+
 
 @media screen and (min-width: 200px) and (max-width: 760px) {
   .me .me_txt {
