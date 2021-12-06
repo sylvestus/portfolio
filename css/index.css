@@ -276,7 +276,12 @@ a {
   }
 
   .listen_2customer .listen_row li {
-    padding-left: 10%;
+    padding-left: 3%;
+   
+  }
+
+  .listen_2customer .listen_row :hover {
+    transform: scale(1.01, 1.12);
   }
 
   .listen_2customer .listen_row .icon_txt {
